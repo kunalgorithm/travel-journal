@@ -388,12 +388,12 @@ function* deleteMedia(id) {
 		write_key: config.bucket.write_key
 	};
 
-	// const result = yield call(cosmic, 'DELETE_MEDIA', params);
-	// if (!result.err) {
-	// 	return true;
-	// }
-	// return false;
-	return true;
+	const result = yield call(cosmic, 'DELETE_MEDIA', params);
+	if (!result.err) {
+		return true;
+	}
+	return false;
+	// return true;
 }
 
 function* rootSaga() {

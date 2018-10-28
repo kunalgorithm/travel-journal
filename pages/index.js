@@ -15,7 +15,7 @@ class Index extends Component {
 	}
 	render() {
 		return (
-			<Wrapper title="Cosmic JS Tour Diary App">
+			<Wrapper title="Travel Journal App">
 				<Layout className="layout content-body-adj">
 					<Content>
 						<Tour />
