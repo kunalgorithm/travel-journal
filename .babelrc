@@ -1,0 +1,19 @@
+{
+	"presets": ["next/babel"],
+	"plugins": [
+		["transform-decorators-legacy"],
+		[
+			"inline-import",
+			{
+				"extensions": [".css"]
+			},
+			"import",
+			{
+				"libraryName": "antd"
+			}
+		],
+		["inline-dotenv"]
+	]
+}
+
+
