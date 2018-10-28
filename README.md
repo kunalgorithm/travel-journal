@@ -1,6 +1,6 @@
 # Travel Journal
 
-![nextjs-tour-diary-app](https://cosmic-s3.imgix.net/16c03db0-0d12-11e8-9463-8d9ca34919d0-main.png)
+![screenshot](static/screenshot.png)
 
 ## Usage
 
